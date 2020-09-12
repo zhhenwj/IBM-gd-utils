@@ -46,7 +46,7 @@ jobs:
         source ~/.profile
         cd ${GITHUB_WORKSPACE}/gd-utils
         npm i
-        cd ..
+        cd .. 
 
     - name: Install Cloud Foundry CLI
       run: |
